@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+   
+}
+
+.logo{
+position: fixed;
+left: 20px;
+width: 80px;
+}
+
+.logout {
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-right: 5px;
+    right: 20px;
+    font-size: 15px;
+    width: 30px;
+}
+
+.login {
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-right: 5px;
+    right: 20px;
+    font-size: 15px;
+    width: 30px;
+}

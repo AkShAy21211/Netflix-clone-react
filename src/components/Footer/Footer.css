@@ -1,0 +1,57 @@
+/* Footer.css */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap to the next row */
+  justify-content: space-around;
+  padding: 25px;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 20px; /* Add margin between columns */
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0; /* Remove default padding for unordered lists */
+}
+
+ul li {
+  margin-bottom: 5px; /* Add margin between list items */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .footer {
+      flex-direction: column; /* Stack columns vertically on small screens */
+  }
+
+  .column {
+      flex: 1; /* Each column takes full width on small screens */
+      padding: 0; /* Remove padding on small screens */
+      margin-bottom: 10px; /* Adjust margin between columns */
+  }
+
+  h3 {
+      font-size: 1rem; /* Decrease heading font size on small screens */
+  }
+}
