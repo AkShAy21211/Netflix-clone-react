@@ -16,24 +16,8 @@ left: 20px;
 width: 80px;
 }
 
-.logout {
+.avatar {
     position: fixed;
-    background-color: transparent;
-    color: white;
-    border: none;
-    padding-right: 5px;
     right: 20px;
-    font-size: 15px;
-    width: 30px;
-}
-
-.login {
-    position: fixed;
-    background-color: transparent;
-    color: white;
-    border: none;
-    padding-right: 5px;
-    right: 20px;
-    font-size: 15px;
     width: 30px;
 }

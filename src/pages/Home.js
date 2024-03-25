@@ -4,11 +4,11 @@ import NavBar from '../components/NavBar/NavBar';
 import RowPost from '../components/RowPost/RowPost';
 import Footer from '../components/Footer/Footer';
 import {original,action,comedy,horror,romance} from "../url"
-function Home({user,setUser}) {
+function Home() {
 
   return (
     <>
-    <NavBar user={user} setUser={setUser} />
+    <NavBar/>
       <Banner/>
       <RowPost title="Netflix Original" url={original}/>
       <RowPost title="Action" isSmall url={action}/>
